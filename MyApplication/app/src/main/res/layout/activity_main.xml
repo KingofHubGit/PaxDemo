@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dengtl.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/open_wifi"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="open Wifi"
+            />
+        <Button
+            android:id="@+id/close_wifi"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="close Wifi"
+            />
+
+        <Button
+            android:id="@+id/open_bt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="open Bluetooth"
+            />
+        <Button
+            android:id="@+id/close_bt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="close Bluetooth"
+            />
+
+        <Button
+            android:id="@+id/open_nfc"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="open NFC"
+            />
+
+        <Button
+            android:id="@+id/get_sms"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="get SMS"
+            />
+
+        <Button
+            android:id="@+id/call_number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="call 10086"
+            />
+
+        <Button
+            android:id="@+id/get_volte_state"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="get VOLTE"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
