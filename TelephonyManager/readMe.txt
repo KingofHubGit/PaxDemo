@@ -1,0 +1,1 @@
+android设备的sim卡通信功能基本测试app
